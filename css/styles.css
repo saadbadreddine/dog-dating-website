@@ -1,3 +1,10 @@
-.cppp {
+#title {
+	padding: 2%;
 	background-color: #674bfe;
+}
+.rotated {
+	transform: rotate(27deg);
+	object-position: 100% 0;
+	width: 300px;
+	height: 323px;
 }
