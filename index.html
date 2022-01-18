@@ -11,36 +11,40 @@
 <body>
 
 
-  <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-lg bg-transparent navbar-dark py-4 navfont">
-    <div class="container px-5">
-      <a href="#" class="navbar-brand px-4">
-        <h2>MyApp</h2>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto px-5">
-          <li class="nav-item px-3">
-            <a href="#footer" class="nav-link">Contact</a>
-          </li>
-          <li class="nav-item px-3">
-            <a href="#pricing" class="nav-link">Pricing</a>
-          </li>
-          <li class="nav-item px-3">
-            <a href="#cta" class="nav-link">Download</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
 
   <!-- Title -->
-  <section id="title" class="text-light p-5 text-center text-sm-start">
-    <div class="container d-sm-flex align-items-center justify-content-between px-5">
-      <div class="px-4">
+  <section id="title">
+
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-dark navfont">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <h2 class="navfont">MyApp</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#cta" class="nav-link">Download</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div
+      class="container d-sm-flex align-items-center justify-content-between text-center text-sm-start text-light p-5">
+      <div>
         <h1>Meet dog next door.</h1>
         <button class="btn btn-dark">Download</button>
         <button class="btn btn-outline-light">Download</button>
@@ -54,7 +58,7 @@
   <!-- Features -->
   <section id="features" class="bg-white text-center p-5">
     <div class="container">
-      <div class="row text-center">
+      <div class="row">
         <div class="col-md">
           <h3>Feature1</h3>
           <p>Write soemthing here...</p>
@@ -75,7 +79,7 @@
 
   <!-- Testimonials -->
 
-  <section id=" testimonials p-5">
+  <section id=" testimonials">
     <div id="carouselExampleControls" class="carousel slide p-5" data-bs-ride="carousel">
       <div class="carousel-inner text-center">
         <div class="carousel-item active">
@@ -112,8 +116,8 @@
   <!-- Press -->
   <section id="press" class="p-5">
     <div class="container text-center">
-      <img class="w-25 px-1" src="images/mmtv-logo.png">
-      <img class="w-25 px-1 " src="images/llbci-logo.png">
+      <img class="w-25 px-3" src="images/mmtv-logo.png">
+      <img class="w-25 px-3 " src="images/llbci-logo.png">
     </div>
   </section>
 
@@ -122,12 +126,14 @@
   <section id="pricing" class="bg-white text-center p-5">
     <div class="container">
 
-      <h2>Packages</h2>
-      <p>Something interesting here...</p>
+      <div class="row">
+        <h2>Packages</h2>
+        <p>Something interesting here...</p>
+      </div>
 
-      <div class="row px-5 ">
+      <div class="row g-4">
 
-        <div class="col py-2 px-md-4">
+        <div class="col">
           <div class=" card" style="width: 18rem;">
             <h3 class="card-header">Package 1</h3>
             <div class="card-body">
@@ -141,7 +147,7 @@
         </div>
 
 
-        <div class="col py-2 px-md-4">
+        <div class="col-md">
           <div class="card" style="width: 18rem;">
             <h3 class="card-header">Package 2</h3>
             <div class="card-body">
@@ -149,12 +155,12 @@
               <p class="card-text">Unlimited Matches</p>
               <p class="card-text">Unlimited Messages</p>
               <p class="card-text">Unlimited App Usage</p>
-              <a href="#" class="btn btn-outline-dark">Sign Up</a>
+              <a href="#" class="btn btn-dark">Sign Up</a>
             </div>
           </div>
         </div>
 
-        <div class="col py-2 px-md-4">
+        <div class="col-md">
           <div class="card" style="width: 18rem;">
             <h3 class="card-header">Package 3</h3>
             <div class="card-body">
@@ -163,20 +169,21 @@
               <p class="card-text">Unlimited Matches </p>
               <p class="card-text">Unlimited Messages</p>
               <p class="card-text">Unlimited App Usage</p>
-              <a href="#" class="btn btn-outline-dark">Sign Up</a>
+              <a href="#" class="btn btn-dark">Sign Up</a>
             </div>
           </div>
         </div>
 
 
       </div>
+
     </div>
   </section>
 
 
   <!-- Call to Action -->
   <section id="cta">
-    <div class="container text-center p-5">
+    <div class="container text-center p-5 text-light ">
       <h3>The APP that your dog needs.</h3>
       <button class="btn btn-dark">Download</button>
       <button class="btn btn-outline-light">Download</button>

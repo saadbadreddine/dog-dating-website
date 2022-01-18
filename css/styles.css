@@ -1,7 +1,26 @@
+@font-face {
+	font-family: Poppins;
+	src: url(/assets/Poppins-Regular.ttf);
+}
+@font-face {
+	font-family: Ubuntu;
+	src: url(/assets/Ubuntu-Regular.ttf);
+}
+
 body {
 	background-color: #674bfe;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .navfont {
-	font-size: 18px;
+	font-family: Ubuntu;
+	font-weight: bold;
+}
+footer {
+	font-family: Ubuntu;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Poppins;
+	font-weight: bold;
 }
