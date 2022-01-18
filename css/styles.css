@@ -17,6 +17,10 @@ body {
 footer {
 	font-family: Ubuntu;
 }
+.featuresicon {
+	color: #674bfe;
+	height: 100px;
+}
 
 h1,
 h2,
