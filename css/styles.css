@@ -3,28 +3,73 @@
 	src: url(/assets/Poppins-Regular.ttf);
 }
 @font-face {
+	font-family: PoppinsBold;
+	src: url(/assets/Poppins-Bold.ttf);
+}
+@font-face {
 	font-family: Ubuntu;
 	src: url(/assets/Ubuntu-Regular.ttf);
 }
-
 body {
 	background-color: #674bfe;
 }
-.navfont {
-	font-family: Ubuntu;
-	font-weight: bold;
-}
+
 footer {
 	font-family: Ubuntu;
 }
-.featuresicon {
-	color: #674bfe;
-	height: 100px;
+.titlemargin {
+	margin-top: 3%;
+	margin-right: 12%;
+	margin-left: 12%;
+}
+.navfont {
+	font-family: Ubuntu;
+	font-weight: 300;
+}
+.fixed {
+	height: 200px;
 }
 
-h1,
+.featuresicon {
+	color: #674bfe;
+}
+
 h2,
 h3 {
 	font-family: Poppins;
 	font-weight: bold;
+}
+h1 {
+	font-family: PoppinsBold;
+	font-size: 34pt;
+}
+
+.poppinsbold {
+	font-family: PoppinsBold;
+	font-size: 25pt;
+}
+
+.smallerimage {
+	width: 15%;
+	height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+	.rotateimage {
+		transform: rotate(20deg);
+	}
+	.mediamd {
+		width: 17%;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.titlefontsm {
+		font-size: 26pt;
+		font-weight: bolder;
+	}
+	.mediasm {
+		width: 25%;
+		height: auto;
+	}
 }

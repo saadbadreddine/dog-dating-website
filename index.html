@@ -17,11 +17,11 @@
 
 
   <!-- Title -->
-  <section id="title">
+  <section id="title" class="titlemargin">
 
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg bg-transparent navbar-dark py-3 navfont">
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-dark navfont">
       <div class="container">
         <a href="#" class="navbar-brand">
           <h2 class="navfont">MyApp</h2>
@@ -30,7 +30,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-center" id="navmenu">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto navposition">
             <li class="nav-item mx-lg-3">
               <a href="#footer" class="nav-link">Contact</a>
             </li>
@@ -45,14 +45,16 @@
       </div>
     </nav>
 
-    <div class="container py-5">
-      <div class="d-sm-flex align-items-center justify-content-between text-center text-sm-start text-light">
-        <div>
-          <h1>Meet dog next door.</h1>
-          <button class="btn btn-dark"><i class="fab fa-apple px-1"></i>Download</button>
+    <div class="container mt-5">
+      <div class="row text-center text-md-start text-light">
+        <div class="col-md mt-0">
+          <h1 class="titlefontsm">Meet dog next door.</h1>
+          <button class="btn btn-dark my-3 my-md-4"><i class="fab fa-apple px-1"></i>Download</button>
           <button class="btn btn-outline-light"><i class="fab fa-google-play px-1"></i>Download</button>
         </div>
-        <img class="img-fluid w-25" src="images/appp.png">
+        <div class="col-md">
+          <img class="w-50 rotateimage" src="images/app.png">
+        </div>
       </div>
     </div>
   </section>
@@ -62,20 +64,20 @@
   <section id="features" class="bg-white text-center p-5">
     <div class="container">
       <div class="row">
-        <div class="col-md">
+        <div class="col">
           <i class="fas fa-bullseye fa-5x featuresicon"></i>
           <h3>Feature1</h3>
-          <p>Write soemthing here...</p>
+          <p>Write something here...</p>
         </div>
         <div class="col-sm">
           <i class="fas fa-check-circle fa-5x featuresicon"></i>
           <h3>Feature2</h3>
-          <p>Write soemthing here...</p>
+          <p>Write something here...</p>
         </div>
-        <div class="col-sm">
+        <div class="col-md">
           <i class="fas fa-heart fa-5x featuresicon"></i>
           <h3>Feature3</h3>
-          <p>Write soemthing here...</p>
+          <p>Write something here...</p>
         </div>
       </div>
     </div>
@@ -84,18 +86,17 @@
 
 
   <!-- Testimonials -->
-
   <section id="testimonials">
     <div id="carouselExampleControls" class="carousel slide p-5" data-bs-ride="carousel">
       <div class="carousel-inner text-center">
         <div class="carousel-item active">
           <h2>Quote 1. Woof.</h2>
-          <img class="w-25" src="images/ddog-img.jpg">
+          <img class="mediasm mediamd" src="images/dog-img.jpg">
           <em>Beirut, Lebanon</em>
         </div>
         <div class="carousel-item">
           <h2>Quote 2. Woof.</h2>
-          <img class="w-25" src="images/ddog-img.jpg">
+          <img class="mediasm mediamd" src="images/dog-img.jpg">
           <em>Beirut, Lebanon</em>
         </div>
       </div>
@@ -120,10 +121,10 @@
 
 
   <!-- Press -->
-  <section id="press" class="p-5">
+  <section id="press" class="mb-5">
     <div class="container text-center">
-      <img class="w-25 px-3" src="images/mmtv-logo.png">
-      <img class="w-25 px-3" src="images/llbci-logo.png">
+      <img class="mx-3 mediasm mediamd" src="images/mtv-logo.png">
+      <img class="mx-3 mediasm mediamd" src="images/lbci-logo.png">
     </div>
   </section>
 
@@ -134,10 +135,10 @@
     <h2>Packages</h2>
     <p>Something interesting here...</p>
 
-    <div class="row g-4">
+    <div class="row g-4 mt-3">
 
-      <div class="col-md">
-        <div class=" card m-auto" style="width: 18rem;">
+      <div class="col">
+        <div class=" card m-auto" style="width: 16rem;">
           <h3 class="card-header">Package 1</h3>
           <div class="card-body">
             <h2 class="card-title">Free</h2>
@@ -150,8 +151,8 @@
       </div>
 
 
-      <div class="col-md">
-        <div class="card m-auto" style="width: 18rem;">
+      <div class="col-sm">
+        <div class="card m-auto" style="width: 16rem;">
           <h3 class="card-header">Package 2</h3>
           <div class="card-body">
             <h2 class="card-title">$29 / mo</h2>
@@ -164,7 +165,7 @@
       </div>
 
       <div class="col-md">
-        <div class="card m-auto" style="width: 18rem;">
+        <div class="card m-auto" style="width: 16rem;">
           <h3 class="card-header">Package 3</h3>
           <div class="card-body">
             <h2 class="card-title">$49 / mo</h2>
@@ -187,7 +188,7 @@
   <!-- Call to Action -->
   <section id="cta">
     <div class="container text-center p-5 text-light">
-      <h3>The APP that your dog needs.</h3>
+      <h3 class="poppinsbold mb-5">The APP that your dog needs.</h3>
       <button class="btn btn-dark"><i class="fab fa-apple px-1"></i>Download</button>
       <button class="btn btn-outline-light"><i class="fab fa-google-play px-1"></i>Download</button>
     </div>
@@ -196,7 +197,11 @@
 
   <!-- Footer -->
   <footer id="footer" class="text-center bg-white p-5">
-    <p>© Copyright SEF</p>
+    <i class="fab fa-twitter fa-2x mx-2 mx-md-4"></i>
+    <i class="fab fa-facebook-f fa-2x mx-2 mx-md-4"></i>
+    <i class="fab fa-instagram fa-2x mx-2 mx-md-4"></i>
+    <i class="fas fa-envelope fa-2x mx-2 mx-md-4"></i>
+    <p class="my-4">© Copyright SEF</p>
   </footer>
 
 
