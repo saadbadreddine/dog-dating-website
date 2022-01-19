@@ -52,22 +52,33 @@ h1 {
 
 @media only screen and (min-width: 768px) {
 	.rotateimage {
-		width: 45%;
-		height: auto;
-		transform: rotate(30deg);
+		width: 300px;
+		max-width: initial;
+		min-width: initial;
+		max-height: initial;
+		min-height: initial;
+		transform: rotate(25deg);
+		margin: 2%;
+		margin-left: 10%;
 	}
 	.containerparent {
+		height: 400px;
 		position: relative;
+	}
+	.fixed {
+		height: 200px;
 	}
 
 	.containerchild {
+		width: 200%;
 		max-height: 100%;
-		max-width: auto;
-		border: 0.25em solid #000;
-
+		max-width: 200%;
+		/* border: 0.25em solid #000; */
 		overflow: hidden;
 		position: absolute;
-		margin-top: 0%;
+		margin-left: -30%;
+		margin-right: 30%;
+		margin-top: 0;
 	}
 
 	.imagemd {
