@@ -17,6 +17,7 @@ body {
 footer {
 	font-family: Ubuntu;
 }
+
 .titlemargin {
 	margin-top: 3%;
 	margin-right: 12%;
@@ -26,9 +27,6 @@ footer {
 	font-family: Ubuntu;
 	font-weight: 300;
 }
-.fixed {
-	height: 200px;
-}
 
 .featuresicon {
 	color: #674bfe;
@@ -36,12 +34,11 @@ footer {
 
 h2,
 h3 {
-	font-family: Poppins;
-	font-weight: bold;
+	font-family: PoppinsBold;
 }
 h1 {
 	font-family: PoppinsBold;
-	font-size: 34pt;
+	font-size: 37pt;
 }
 
 .poppinsbold {
@@ -49,17 +46,32 @@ h1 {
 	font-size: 25pt;
 }
 
-.smallerimage {
-	width: 15%;
-	height: auto;
+.testimonialdog {
+	border-radius: 50%;
 }
 
 @media only screen and (min-width: 768px) {
 	.rotateimage {
-		transform: rotate(20deg);
+		width: 45%;
+		height: auto;
+		transform: rotate(30deg);
 	}
-	.mediamd {
-		width: 17%;
+	.containerparent {
+		position: relative;
+	}
+
+	.containerchild {
+		max-height: 100%;
+		max-width: auto;
+		border: 0.25em solid #000;
+
+		overflow: hidden;
+		position: absolute;
+		margin-top: 0%;
+	}
+
+	.imagemd {
+		width: 15%;
 		height: auto;
 	}
 }
@@ -68,8 +80,16 @@ h1 {
 		font-size: 26pt;
 		font-weight: bolder;
 	}
-	.mediasm {
+	.imagesm {
 		width: 25%;
+		height: auto;
+	}
+	.iconssm {
+		font-size: 19pt;
+	}
+
+	.dogappimg {
+		width: 65%;
 		height: auto;
 	}
 }
