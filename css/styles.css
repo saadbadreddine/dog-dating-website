@@ -52,11 +52,11 @@ h1 {
 
 @media only screen and (min-width: 768px) {
 	.rotateimage {
-		width: 300px;
+		width: 303px;
 		max-width: initial;
 		min-width: initial;
 		max-height: initial;
-		min-height: initial;
+		min-height: auto;
 		transform: rotate(25deg);
 		margin: 2%;
 		margin-left: 10%;
@@ -64,6 +64,7 @@ h1 {
 	.containerparent {
 		height: 400px;
 		position: relative;
+		margin-top: -4%;
 	}
 	.fixed {
 		height: 200px;
