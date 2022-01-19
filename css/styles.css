@@ -59,7 +59,7 @@ h1 {
 		min-height: auto;
 		transform: rotate(25deg);
 		margin: 2%;
-		margin-left: 10%;
+		margin-left: 17%;
 	}
 	.containerparent {
 		height: 400px;
@@ -71,7 +71,7 @@ h1 {
 	}
 
 	.containerchild {
-		width: 200%;
+		width: 150%;
 		max-height: 100%;
 		max-width: 200%;
 		/* border: 0.25em solid #000; */
