@@ -31,7 +31,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center" id="navmenu">
+        <div class="collapse navbar-collapse text-center me-4" id="navmenu">
           <ul class="navbar-nav ms-auto navposition">
             <li class="nav-item mx-lg-3">
               <a href="#footer" class="nav-link">Contact</a>
@@ -47,16 +47,16 @@
       </div>
     </nav>
 
-    <div class="mt-5 ms-3">
+    <div class="container-fluid mt-5">
       <div class="row text-center text-md-start text-light">
         <div class="col-md mt-1">
           <h1 class="titlefontsm">Meet dog next door.</h1>
-          <button class="btn btn-dark my-3 my-md-4"><i class="fab fa-apple px-1"></i>Download</button>
+          <button class="btn btn-dark me-1 my-4"><i class="fab fa-apple px-1"></i>Download</button>
           <button class="btn btn-outline-light"><i class="fab fa-google-play px-1"></i>Download</button>
         </div>
         <div class="col-md containerparent">
           <div class="containerchild">
-            <img class="dogappimg rotateimage" src="images/app.png">
+            <img class="img-fluid dogappimg rotateimage" src="images/app.png">
           </div>
         </div>
       </div>
@@ -66,21 +66,21 @@
 
 
   <!-- Features -->
-  <section id="features" class="bg-white text-center p-5">
-    <div class="container">
-      <div class="row g-5">
+  <section id="features" class="bg-white text-center p-5 ">
+    <div class="container-fluid">
+      <div class="row d-flex align-items-center justify-content-center featurescontainer">
         <div class="col">
-          <i class="fas fa-bullseye fa-5x featuresicon p-3"></i>
+          <i class="fas fa-bullseye fa-5x featuresicon m-3"></i>
           <h3>Feature1</h3>
           <p>Write something here...</p>
         </div>
         <div class="col-sm">
-          <i class="fas fa-check-circle fa-5x featuresicon p-3"></i>
+          <i class="fas fa-check-circle fa-5x featuresicon m-3"></i>
           <h3>Feature2</h3>
           <p>Write something here...</p>
         </div>
         <div class="col-md">
-          <i class="fas fa-heart fa-5x featuresicon p-3"></i>
+          <i class="fas fa-heart fa-5x featuresicon m-3"></i>
           <h3>Feature3</h3>
           <p>Write something here...</p>
         </div>
@@ -95,14 +95,14 @@
     <div id="carouselExampleControls" class="carousel slide p-5" data-bs-ride="carousel">
       <div class="carousel-inner text-center">
         <div class="carousel-item active ">
-          <h2>Quote 1. Woof.</h2>
+          <h2 class="mb-4">Quote 1. Woof.</h2>
           <img class="imagesm imagemd testimonialdog" src="images/dog-img.jpg">
-          <em>Beirut, Lebanon</em>
+          <em class="ms-2 text-light">Beirut, Lebanon</em>
         </div>
         <div class="carousel-item">
-          <h2>Quote 2. Woof.</h2>
+          <h2 class="mb-4">Quote 2. Woof.</h2>
           <img class="imagesm imagemd testimonialdog" src="images/dog-img.jpg">
-          <em>Beirut, Lebanon</em>
+          <em class="ms-2 text-light">Beirut, Lebanon</em>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -127,9 +127,9 @@
 
   <!-- Press -->
   <section id="press" class="mb-5">
-    <div class="container text-center">
-      <img class="mx-3 imagesm imagemd" src="images/mtv-logo.png">
-      <img class="mx-3 imagesm imagemd" src="images/lbci-logo.png">
+    <div class="container-fluid text-center">
+      <img class="mx-3 my-3 imagesm imagemd" src="images/mtv-logo.png">
+      <img class="mx-3 my-3 imagesm imagemd" src="images/lbci-logo.png">
     </div>
   </section>
 
@@ -139,73 +139,78 @@
 
     <h2>Packages</h2>
     <p>Something interesting here...</p>
-    <div class="container">
-      <div class="row g-5 mt-4">
 
-        <div class="col-sm-6 col-lg-4">
-          <div class=" card m-auto" style="width: 16rem;">
-            <h3 class="card-header">Package 1</h3>
-            <div class="card-body">
-              <h2 class="card-title">Free</h2>
-              <p class="card-text">5 Matches Per Day</p>
-              <p class="card-text">10 Messages Per Day</p>
-              <p class="card-text">Unlimited App Usage</p>
-              <a href="#" class="btn btn-outline-dark">Sign Up</a>
-            </div>
+    <div class="row g-5 mt-4">
+
+      <div class="col-sm-6 col-lg-4">
+        <div class=" card m-auto" style="width: 15rem;">
+          <h3 class="card-header">Package 1</h3>
+          <div class="card-body">
+            <h2 class="card-title">Free</h2>
+            <p class="card-text">5 Matches Per Day</p>
+            <p class="card-text">10 Messages Per Day</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="btn btn-outline-dark">Sign Up</a>
           </div>
         </div>
-
-
-        <div class="col-sm-6 col-lg-4">
-          <div class="card m-auto" style="width: 16rem;">
-            <h3 class="card-header">Package 2</h3>
-            <div class="card-body">
-              <h2 class="card-title">$29 / mo</h2>
-              <p class="card-text">Unlimited Matches</p>
-              <p class="card-text">Unlimited Messages</p>
-              <p class="card-text">Unlimited App Usage</p>
-              <a href="#" class="btn btn-dark">Sign Up</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-4 ">
-          <div class="card m-auto" style="width: 16rem;">
-            <h3 class="card-header">Package 3</h3>
-            <div class="card-body">
-              <h2 class="card-title">$49 / mo</h2>
-              <p class="card-title">Pirority Listing</p>
-              <p class="card-text">Unlimited Matches </p>
-              <p class="card-text">Unlimited Messages</p>
-              <p class="card-text">Unlimited App Usage</p>
-              <a href="#" class="btn btn-dark">Sign Up</a>
-            </div>
-          </div>
-        </div>
-
-
       </div>
+
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="card m-auto" style="width: 15rem;">
+          <h3 class="card-header">Package 2</h3>
+          <div class="card-body">
+            <h2 class="card-title">$29 / mo</h2>
+            <p class="card-text">Unlimited Matches</p>
+            <p class="card-text">Unlimited Messages</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="btn btn-dark">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 ">
+        <div class="card m-auto" style="width: 15rem;">
+          <h3 class="card-header">Package 3</h3>
+          <div class="card-body">
+            <h2 class="card-title">$49 / mo</h2>
+            <p class="card-title">Pirority Listing</p>
+            <p class="card-text">Unlimited Matches </p>
+            <p class="card-text">Unlimited Messages</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="btn btn-dark">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+
     </div>
+
 
   </section>
 
 
   <!-- Call to Action -->
   <section id="cta">
-    <div class="container text-center p-5 text-light">
+    <div class="d-flex flex-column text-center p-5 text-light ctacontainer justify-content-center align-items-center">
       <h3 class="poppinsbold mb-4">The APP that your dog needs.</h3>
-      <button class="btn btn-dark"><i class="fab fa-apple px-1"></i>Download</button>
-      <button class="btn btn-outline-light"><i class="fab fa-google-play px-1"></i>Download</button>
+      <div class="d-flex align-items-center text-center">
+        <button class="btn btn-dark me-1"><i class="fab fa-apple px-1"></i>Download</button>
+        <button class="btn btn-outline-light ms-1"><i class="fab fa-google-play px-1"></i>Download</button>
+      </div>
+
     </div>
+
+
   </section>
 
 
   <!-- Footer -->
   <footer id="footer" class="text-center bg-white p-5">
-    <i class="fab fa-twitter fa-2x mx-3 mx-md-4 iconssm"></i>
-    <i class="fab fa-facebook-f fa-2x mx-3 mx-md-4 iconssm"></i>
-    <i class="fab fa-instagram fa-2x mx-3 mx-md-4 iconssm"></i>
-    <i class="fas fa-envelope fa-2x mx-3 mx-md-4 iconssm"></i>
+    <i class="fab fa-twitter fa-2x mt-5 mx-3 mx-md-4 iconssm"></i>
+    <i class="fab fa-facebook-f fa-2x mt-5 mx-3 mx-md-4 iconssm"></i>
+    <i class="fab fa-instagram fa-2x mt-5 mx-3 mx-md-4 iconssm"></i>
+    <i class="fas fa-envelope fa-2x mt-5 mx-3 mx-md-4 iconssm"></i>
     <p class="my-4">© Copyright SEF</p>
   </footer>
 

@@ -13,7 +13,7 @@ footer {
 }
 .navfont {
 	font-family: Ubuntu;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .featuresicon {
@@ -38,6 +38,10 @@ h1 {
 	border-radius: 50%;
 }
 
+.ctacontainer {
+	height: 250px;
+}
+
 @media only screen and (min-width: 768px) {
 	.rotateimage {
 		width: 303px;
@@ -47,10 +51,11 @@ h1 {
 		min-height: auto;
 		transform: rotate(25deg);
 		margin: 2%;
-		margin-left: 17%;
+		margin-left: 20%;
 	}
 	.containerparent {
 		height: 400px;
+		width: 400px;
 		position: relative;
 		margin-top: -4%;
 	}
@@ -59,14 +64,14 @@ h1 {
 	}
 
 	.containerchild {
-		width: 150%;
+		width: 155%;
 		max-height: 100%;
 		max-width: 200%;
-		/* border: 0.25em solid #000; */
+		/*border: 0.25em solid #000;*/
 		overflow: hidden;
 		position: absolute;
 		margin-left: -30%;
-		margin-right: 30%;
+
 		margin-top: 0;
 	}
 
@@ -74,10 +79,14 @@ h1 {
 		width: 15%;
 		height: auto;
 	}
+
+	.featurescontainer {
+		height: 260px;
+	}
 }
 @media only screen and (max-width: 768px) {
 	.titlefontsm {
-		font-size: 26pt;
+		font-size: 27pt;
 		font-weight: bolder;
 	}
 	.imagesm {
@@ -89,7 +98,7 @@ h1 {
 	}
 
 	.dogappimg {
-		width: 65%;
+		width: 60%;
 		height: auto;
 	}
 }
